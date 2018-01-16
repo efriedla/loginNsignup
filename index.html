@@ -22,7 +22,7 @@
             <input type="text" placeholder="Enter Username" name="uname" required>
     
             <label><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" required >
             
             <button type="submit">Login</button>
             <label>
@@ -54,7 +54,7 @@
         
                 <!-- <label><b>Password</b>
                 <input type="password" placeholder="Enter Password" name="psw" required></label> -->
-                <input type="password" placeholder="Password" id="password" name="psw" required>
+                <input type="password" placeholder="Password" id="password" name="psw" pattern=".{5,10}" required title="Must be between 5 to 10 characters long">
                 <input type="password" placeholder="Confirm Password" id="confirm_password" required>
                 <p>extra infromation</p><br>
                 <label>User color: <input type="color" name="userColor"></label>
